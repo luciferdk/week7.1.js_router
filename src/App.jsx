@@ -1,4 +1,6 @@
-/* import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+/* 
+//? use navigation to rander page | cons is it tetch all pages at once | pros for small application its pretty
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import { useState } from 'react'
 //  import './App.css'
 
@@ -35,8 +37,10 @@ function Appbar() {
   </div>
 }
 */
+// !++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-//lazy component
+/*
+//? lazy component | const it take some time to render the page or fetch the page | pros for 50-70 or more pages it's good to render only those needs pages
 import { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import { useState } from 'react'
@@ -74,5 +78,10 @@ function Appbar() {
     </div>
   </div>
 }
+*/
+//! +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// ? prop drilling
+
 
 export default App
