@@ -41,7 +41,7 @@ function Appbar() {
   */
 // !++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // * client side routing using lazy component
-// ? lazy component | const it take some time to render the page or fetch the page | pros for 50-70 or more pages it's good to render only those needs pages
+// ? lazy component | cons it take some time to render the page or fetch the page | pros for 50-70 or more pages it's good to render only those needs pages
 // todo create folder pages  and then two file Dashboard.jsx OR Loading.jsx
 /*
 import { Suspense, lazy } from "react";
